@@ -1,0 +1,12 @@
+package com.company.Project;
+
+import Facade.OrderFacade;
+
+public class Main {
+    public static void main(String[] args) {
+
+        OrderFacade orderFacade = new com.company.Project.Facade.OrderFacadeImpl();
+        orderFacade.order();
+
+    }
+}
